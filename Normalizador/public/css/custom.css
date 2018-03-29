@@ -1,0 +1,43 @@
+.modal.bottom-sheet {
+    top: auto;
+    background-color: white;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 80% !important;
+    max-height: 80% !important;
+    border-radius: 0;
+    will-change: bottom, opacity;
+}
+
+.btn-flat.red-hover:focus, .btn-flat.red-hover:hover {
+    border-radius: 0;
+    background-color: rgba(244, 67, 54, 0.7)!important;
+    box-shadow: none!important;
+}
+
+.picker__date-display {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 210, 255), rgb(58, 123, 213));
+    color: #fff;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.picker__weekday-display {
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 200;
+    letter-spacing: .5;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.picker__box {
+    display: block;
+    border: 0px;
+    border-top-color: #898989;
+    border-bottom-width: 0;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 12px 36px 16px rgba(0, 0, 0, 0.24);
+}
